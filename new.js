@@ -13,8 +13,3 @@ function Admin(role) {
 }
 
 Admin.prototype = Object.create(User.prototype);
-
-const newUser = new Admin("admin");
-
-console.log(newUser.showInfos());
-console.log(newUser.role);
