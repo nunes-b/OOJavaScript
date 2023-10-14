@@ -9,6 +9,7 @@ const novoAdmin = new Admin("Juvena", "u@u.com.br", "20/20/20");
 console.log(novoAdmin.nome);
 novoAdmin.nome = "Murilo";
 console.log(novoAdmin.nome);
+console.log(novoAdmin.exibirInfos());
 
 // const novoDocente = new Docente("Docente", "d@d.com.br");
 // console.log(novoDocente);
